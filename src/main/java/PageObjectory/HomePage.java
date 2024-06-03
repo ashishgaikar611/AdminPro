@@ -65,7 +65,7 @@ public class HomePage extends AbstractComponant {
 		
 		//driver.get(prop.getProperty("applicationURL"));
 	driver.get("https://admin-board-phl-uat.flexm.com/auth");
-		
+		//test
 		AbstractComponant.waitForElementToAppear(driver, txtPassword, 30);
 		
 	}
